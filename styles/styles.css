@@ -1,0 +1,79 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+html {
+  background-color: #cf8ecc;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 25%;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #8f009f;
+  text-shadow: 3px 3px 1px black;
+}
+ul {
+  background-color: #d9b3e6;
+  box-shadow: 0px 0px 20px #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #8f009f;
+  font-size: 30px;
+}
+p {
+position: absolute;
+  top: 250px;
+  left: 12px;
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  background-color: rgba(217,179,230,0.95);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 50;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-weight: 600;
+    font-size: 27px;
+}
+p2 {
+  position: absolute;
+  top: 250px;
+  right: 12px;
+  transform: rotate(40deg);
+  transform-origin: top right;
+  background-color: rgba(217,179,230,0.95);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 50;
+  box-shadow: 0 2px 4px rgba(54, 1, 40, 0.596);
+  font-weight: 600;
+  font-size: 27px;
+}
+div#name-area {
+  justify-content: bottom left;
+  background-color: rgba(217,179,230,0.95);
+  box-shadow: 0 0 10px #8f009f;
+  margin-top: 20px;
+}
